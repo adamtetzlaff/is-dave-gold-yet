@@ -33,7 +33,7 @@ const Index = () => {
       </div>
       <div className="flex flex-col space-y-4">
         <div className="text-2xl font-semibold">Current Stats</div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-0">
           <div className="flex flex-col space-y-1">
             <div className="font-light text-sm">RANK</div>
             <div className="font-semibold text-lg">

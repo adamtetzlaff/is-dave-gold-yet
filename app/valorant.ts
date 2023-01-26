@@ -28,6 +28,5 @@ export const getMMR = async (username: string, tag: string) => {
   if (res.status !== 200)
     throw new Error(`Error fetching MMR data for ${username}#${tag}`);
 
-  console.log("data: ", res.data);
   return res.data;
 };
